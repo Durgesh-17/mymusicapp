@@ -1,0 +1,112 @@
+.main{
+    margin-left: '214px';
+    background-color: #161d3a;
+}
+.trending {
+    margin-left: 214px; /* Same as the width of the sidenav */
+    font-size: 2em; /* Increased text to enable scrolling */
+    padding: 35px 55px;
+    /* border: 1px solid red; */
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+  }
+.albumcontainer{
+      height: 166px;
+      /* border: 1px solid red;  */
+      display: flex;
+      background-color: #161d3a;
+      margin-left: 214px;
+  }
+.albumnamecontainer{
+    height: 44px;
+    /* border: 1px solid yellow; */
+    margin-left: 214px;
+    background-color: #161d3a;
+}
+.albumname{
+    /* border: 1px solid green; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#justice{
+    margin-left: 75px;
+
+}
+#evermore{
+    margin-left: 160px;
+}
+#wow{
+    margin-left: 125px;
+}
+#divide{
+    margin-left: 135px;
+}
+#illuminate{
+    margin-left: 160px;
+
+}
+#tia{
+    margin-left: 135px;
+
+}
+
+
+.album{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    /* border: 1px solid green; */
+    transition: transform 0.2s ease-out;
+      
+}
+.album:hover{
+      cursor: pointer;
+      transform: translate(5px, -10px);
+
+  }
+img{
+    border-radius: 7px;
+}
+.populartop{
+    height: 80px;
+    /* border: 1px solid red; */
+    margin-left: 214px;
+    background-color: #161d3a;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    display: flex;
+}
+#topsong{
+    width: 232px;
+    margin-left: 100px;
+    /* border: 1px solid wheat; */
+    float: right;
+    padding-top: 27px;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+#popular{
+    width: 450px;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding-top: 27px ;
+    font-weight: bold;
+    font-size: 2em;  
+}
+.popularimage{
+    float: left;
+    width: 360px;
+    height: 350px;
+    /* border: 1px solid white;  */
+    background-color: #161d3a;
+    margin-left: 280px;
+    margin-top: 15px;
+    transition: transform 0.2s ease-out;
+    margin-bottom: 17px;
+}
+.popularimage:hover{
+    cursor: pointer;
+    transform: translate(5px, -10px);
+}

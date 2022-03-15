@@ -1,0 +1,74 @@
+.songcontainer{
+     border: 1px solid #161d3a; 
+    margin-left: 700px;
+}
+
+li{
+    display: inline;
+    color: white;
+    /* font-size: 25px; */
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    
+}
+.songname{
+    /* border: 1px solid white; */
+    margin-right: 40px;
+    font-size: 20px;
+}
+.cover{
+    padding-top: 20px;
+    /* border: 1px solid white; */
+    margin-right: 50px;
+    border-radius: 1px;
+}
+.songbanner{
+    /* border: 1px solid yellow; */
+    border-radius: 5px;
+    margin:8px;
+    box-sizing: content-box;
+    background-color: #3c3e4d;
+    padding: 2px;
+    
+}
+.singer{
+    font-size: 10px;
+    color: red;
+}
+.featuredartists{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    margin-left: 214px;
+    background-color: #161d3a;
+    border: 1px solid #161d3a;
+    clear: both;
+    color: white;
+    padding-left: 100px;
+    height: 100px;
+    padding-top: 35px;
+    
+    
+}
+.artistcontainer{
+    display: flex;
+    /* border: 1px solid wheat; */
+    background-color: #161d3a;
+    margin-left: 214px;
+    height: 200px;
+    padding-bottom: 25px;
+}
+.artist{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    /* border: 1px solid green; */
+    transition: transform 0.2s ease-out;
+
+}
+.artist:hover{
+    cursor: pointer;
+    transform: translate(5px, -10px);
+}
